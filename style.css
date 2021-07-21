@@ -1,0 +1,21 @@
+body {
+    margin: 0;
+}
+
+ul {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    padding: 0;
+    margin: 3% 20%; 
+    
+}
+
+ul > li {
+    width: 200px;
+    height: 200px;
+    margin: 0.5%;
+    content: url("https://source.unsplash.com/random");
+}
+
